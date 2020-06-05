@@ -25,23 +25,23 @@ Create a command-line application that dynamically generates a README.md from a 
 
  
 ## Installation
-1. Open terminal 2. type "npm I" 
+Open terminal 2. type "npm I"
 
 
 ## Instructions
-allows you to create a easy to use ReadMe 
+type "node index.js" and answer the questions asked.
 
 
 ## License 
-contact Isaiah Edwards  - for lincensing info.
+contact isaiah edwards - for lincensing info.
 
 
 ## Contributors
-Isaiah Edwards
+isaiah edwards
 
 
 ## Tests
-not available yet
+test
 
 
 ## Bugs
