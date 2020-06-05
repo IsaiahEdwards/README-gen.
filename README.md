@@ -1,14 +1,14 @@
 
     
-    read me gen
+## README GENERATOR
     
   
-    creates readmes
+Create a command-line application that dynamically generates a README.md from a user's input.
 
  ----------------------------------------------------------------------------
     
     
-* [Installation] 
+* [Installation]
     
 * [Instructions] 
     
@@ -25,27 +25,31 @@
 
  
 ## Installation
-who knows
+1. Open terminal 2. type "npm I" 
 
 
 ## Instructions
-to create readmes
+allows you to create a easy to use ReadMe 
 
 
 ## License 
-contact isaiah edwards - for lincensing info.
+contact Isaiah Edwards  - for lincensing info.
 
 
 ## Contributors
-isaiahedwards
+Isaiah Edwards
 
 
 ## Tests
-run a test
+not available yet
 
 
 ## Bugs
-Please report any bugs to isaiahedwards@gmail.com
+Please report any bugs to isaiaheedwads@gmail.com
 
 
- https://avatars.githubusercontent.com/isaiahedwards
+## github info 
+ username: https://api.github.com/users/isaiahedwards
+
+
+ email: isaiaheedwads@gmail.com

@@ -32,12 +32,12 @@ function promptUser() {
       {
         type: "input",
         name: "license",
-        message: "what is the license"
+        message: "what is the license?"
       },
       {
         type: "input",
         name: "contribution",
-        message: "enter a github username"
+        message: "enter your name."
       },
       {
         type: "input",
@@ -60,16 +60,16 @@ function promptUser() {
 
 // generate answers
   function generateHTML(answers) {
-    const gitResponse = axios.get(`https://api.github.com/users/${answers.Username}`);
+    const gitResponse = (`https://api.github.com/users/${answers.Username}`);
     const gitProfileImage = (`https://avatars.githubusercontent.com/${answers.Username}`);
     return `
     
-${answers.title}
+## ${answers.title}
     \n  
-    ${answers.description}
+${answers.description}
 \n ----------------------------------------------------------------------------
     
-    \n* [Installation] 
+    \n* [Installation]
     \n* [Instructions] 
     \n* [License] 
     \n* [Contributors] 
@@ -95,8 +95,11 @@ ${answers.test}
 \n
 ## Bugs
 Please report any bugs to ${answers.githubemail}
-
-\n ${gitProfileImage}
+\n
+## github info 
+ username: ${gitResponse}
+\n
+ email: ${answers.githubemail}
 `;}
   
 
