@@ -45,11 +45,11 @@ not available yet
 
 
 ## Bugs
-Please report any bugs to isaiaheedwads@gmail.com
+Please report any bugs to isaiaheedwards@gmail.com
 
 
 ## github info 
  username: https://api.github.com/users/isaiahedwards
 
 
- email: isaiaheedwads@gmail.com
+ email: isaiaheedwards@gmail.com
